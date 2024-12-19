@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SenukaiTestSuite" verbose="1" thread-count="3">
+    <test name="SenukaiRegisterTest">
+        <classes>
+            <class name="lt.vcs.senukai.test.senukai.SenukaiRegisterTest" />
+            <methods>
+                <include name="testSenukaiRegistracijaCorrectDetails"/>
+                <include name="testSenukaiRegistracijaInvalidEmail"/>
+            </methods>
+        </classes>
+    </test>
+
+    <test name="SenukaiAccountActivationTest">
+        <classes>
+            <class name="lt.vcs.senukai.test.senukai.SenukaiAccountActivationTest" />
+        </classes>
+    </test>
+
+    <test name="SenukaiLoginTest">
+        <classes>
+            <class name="lt.vcs.senukai.test.senukai.SenukaiLoginTest" />
+        </classes>
+    </test>
+    <test name="SenukaiDeleteAccountPageTest">
+        <classes>
+            <class name="lt.vcs.senukai.test.senukai.SenukaiDeleteAccountPageTest" />
+        </classes>
+    </test>
+</suite>
